@@ -1,0 +1,68 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v4
+ 
+    - name: Build Task 2
+      run: |
+        cd task2
+        sudo chmod +x build.sh
+        sudo bash ./build.sh
+        sudo chmod +x pada
+        # erase value of output and score
+        echo "" > tests/output.txt
+        echo "" > tests/score.txt
+
+    - name: Build Task 3
+      run: |
+        cd task3
+        sudo chmod +x build.sh
+        sudo bash ./build.sh  
+        sudo chmod +x kaminsky
+        echo "" > tests/output.txt
+        echo "" > tests/score.txt
+
+    - name: Run Pada Test
+      run: |
+        # You have a 45 second timeout for each test case
+        sudo ./dns-server-x86-test test_pada
+
+    - name: Run Kaminsky Test
+      run: |
+        # You have a 4 minute timeout for each test case
+        sudo ./dns-server-x86-test test_kaminsky
+
+    - name: Report the result
+      run: |
+        echo "========================================="
+        echo "Pada Test"
+        PADA_SCORE=$(echo "$(cat task2/tests/score.txt) * 35" | bc -l)
+        PADA_SCORE=$(printf "%.2f" "$PADA_SCORE")  # Ensures two decimal places
+        echo "Score: $PADA_SCORE / 35" 
+        echo "$(cat task2/tests/output.txt)"
+        echo ""
+
+        echo "========================================="
+        echo "Kaminsky Test"
+        KAMINSKY_SCORE=$(echo "$(cat task3/tests/score.txt) * 50" | bc -l)
+        KAMINSKY_SCORE=$(printf "%.2f" "$KAMINSKY_SCORE")  # Ensures two decimal places
+        echo "Score: $KAMINSKY_SCORE / 50"
+        echo "$(cat task3/tests/output.txt)"
+        echo "========================================="
+
+        TOTAL_SCORE=$(echo "$PADA_SCORE + $KAMINSKY_SCORE" | bc -l)
+        TOTAL_SCORE=$(printf "%.2f" "$TOTAL_SCORE")  # Ensures two decimal places
+        echo ""
+        echo "Total: $TOTAL_SCORE / 85"
+        echo "========================================="
