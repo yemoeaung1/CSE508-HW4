@@ -1,0 +1,160 @@
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_newjeans_kr_full: Query for subdomain of newjeans.kr not found. Found: 
+====== History ======
+=====================
+
+
+TEST CASE kaminsky_google_com_full: Query for subdomain of google.com not found. Found: 
+====== History ======
+=====================
+
+
