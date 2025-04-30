@@ -1,0 +1,8 @@
+{
+    "transaction_id":  1234,
+    "response_delay": -1, 
+    "port": 253,
+    "ns_port": 0,
+    "pada": "task2/pada",
+    "kaminsky": "task3/kaminsky"
+}

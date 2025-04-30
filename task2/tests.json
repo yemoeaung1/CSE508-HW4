@@ -1,0 +1,60 @@
+[
+    {
+        "name": "query_newjeans_kr",
+        "pada": {
+            "query_name": "newjeans.kr",
+            "dns_server": "localhost",
+            "port": 153,
+            "query": false,
+            "response": false,
+            "rcode": null,
+            "txid": null,
+            "ipaddr": null
+        },
+        "settings": {
+            "transaction_id":  1234,
+            "response_delay": -1,
+            "port": 153,
+            "ns_port": 0,
+            "pada": null
+        }
+    },
+    {
+        "name": "response_facebook_com",
+        "pada": {
+            "query_name": "facebook.com",
+            "dns_server": "localhost",
+            "port": 253,
+            "query": false,
+            "response": true,
+            "rcode": 0,
+            "txid": 1234,
+            "ipaddr": "1.1.1.1"
+        },
+        "settings": {
+            "transaction_id":  1234,
+            "response_delay": -1,
+            "port": 253,
+            "ns_port": 0
+        }
+    },
+    {
+        "name": "nxdomain_google_com",
+        "pada": {
+            "query_name": "google.com",
+            "dns_server": "localhost",
+            "port": 353,
+            "query": false,
+            "response": true,
+            "rcode": 3,
+            "txid": null,
+            "ipaddr": null
+        },
+        "settings": {
+            "transaction_id":  1234,
+            "response_delay": -1,
+            "port": 353,
+            "ns_port": 0
+        }
+    }
+]

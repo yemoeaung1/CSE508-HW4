@@ -1,0 +1,34 @@
+[
+    {
+        "name": "kaminsky_newjeans_kr_full",
+        "kaminsky": {
+            "domain": "newjeans.kr",
+            "port": 1055,
+            "ns_port": 2055,
+            "dns_server": "localhost",
+            "ip": "1.1.1.1"
+        },
+        "settings": {
+            "transaction_id":  -1,
+            "response_delay": 0,
+            "port": 1055,
+            "ns_port": 9997
+        }
+    },
+    {
+        "name": "kaminsky_google_com_full",
+        "kaminsky": {
+            "domain": "google.com",
+            "port": 1056,
+            "ns_port": 2056,
+            "dns_server": "localhost",
+            "ip": "1.1.1.2"
+        },
+        "settings": {
+            "transaction_id":  -1,
+            "response_delay": 0,
+            "port": 1056,
+            "ns_port": 9996
+        }
+    }
+]
